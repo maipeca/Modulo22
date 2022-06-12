@@ -1,0 +1,19 @@
+.cars {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+ 
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    li {
+        color: $color-04;
+
+        a {
+            background-color: $color-default;
+        
+        }
+    }
+}
