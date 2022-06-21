@@ -70,6 +70,11 @@ footer {
 .blocks {
   padding: 4rem 0;
 }
+@media only screen and (max-width: 733px) {
+  .blocks {
+    text-align: center;
+  }
+}
 .blocks ul {
   list-style-type: none;
   font-size: 1.2rem;
@@ -78,6 +83,12 @@ footer {
   height: 250px;
   padding: 2rem 0;
   width: 100%;
+}
+@media only screen and (max-width: 733px) {
+  .blocks ul {
+    display: block;
+    height: auto;
+  }
 }
 .blocks li {
   color: #D6D6D6;
@@ -112,16 +123,31 @@ footer {
   height: 100%;
   border-radius: 50%;
 }
+@media only screen and (max-width: 733px) {
+  .cars img {
+    border-radius: 30%;
+  }
+}
 .cars li {
   color: #ffd100;
 }
 .cars li a {
   background-color: #333533;
 }
+@media only screen and (max-width: 733px) {
+  .cars li a {
+    font-size: 1.4rem;
+  }
+}
 
 .destack {
   background-color: #ffd100;
   padding: 1.5rem;
+}
+@media only screen and (max-width: 733px) {
+  .destack .vl, .destack .vl2 {
+    height: 200px;
+  }
 }
 .destack h1 {
   color: #202020;
@@ -137,7 +163,7 @@ footer {
 .destack img {
   display: block;
   margin: auto;
-  width: auto;
+  width: 50%;
   margin: 1.5rem auto;
 }
 .destack p {

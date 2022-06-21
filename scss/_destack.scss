@@ -3,8 +3,13 @@
     background-color: $color-04;
 
     padding: $space-default;
-
-    
+    .vl, .vl2 {
+        @media only screen and (max-width: 733px)
+        { height: 200px;}
+       
+        
+    }  
+   
     h1 {
         color: $color-03;
         font-size: $font-big;
@@ -18,7 +23,7 @@
     }
     img {display: block;
         margin: auto;
-        width: auto;
+        width: 50%;
         margin: $space-default auto;
     }
     p {
@@ -28,4 +33,7 @@
         width: 100%;
       
     }
+
+
+    
 }
