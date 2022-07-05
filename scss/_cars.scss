@@ -9,7 +9,8 @@
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        @media only screen and (max-width: 733px){border-radius: 30%;}
+        @media only screen and (max-width: 733px){border-radius: 30%;object-fit: cover;}
+  
         }
 
     li {
